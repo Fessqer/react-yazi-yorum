@@ -2,7 +2,6 @@ exports.up = function (knex) {
   return knex.schema
     .createTable("post", (table) => {
       table.increments();
-      table.string("link").notNullable();
       table.string("title").notNullable().index();
       table.text("content").notNullable();
       table.datetime("created_at").defaultTo(knex.fn.now());
