@@ -23,6 +23,13 @@ exports.seed = function (knex) {
             "Redux sayesinde karmasik state islemleri tek bir merkezden yonetilebilir.",
           user_id: 1,
         },
+        {
+          title: "test",
+          link:"https://lh3.googleusercontent.com/proxy/GuKE0XNmKhUaRsbhtxxjwU826-YkoD4Sha8eFvdYqmM5XYNB7ZeTnAVoLAsztbDomI28Bzzvxx7ZUmmuLrd8OKyzmWA5TmXcjebKTWSkgmzC1qDAJnEh5wbgUvmdWtj6asjNlsKexZJKBDTfjFcI0rjrxg",
+          content:
+            "1234",
+          user_id: 1,
+        }
       ]);
     });
 };
